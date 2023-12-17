@@ -507,58 +507,21 @@
                 <p>Check our Team</p>
             </div>
 
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member-img">
-                            <img src="{{('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                    <div class="member" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member-img">
-                            <img src="{{('assets/img/team/team-2.jpg')}}" class="img-fluid" alt="">
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
-                            <span>Product Manager</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="row justify-content-center">
 
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                     <div class="member" data-aos="fade-up" data-aos-delay="300">
                         <div class="member-img">
-                            <img src="{{('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{('assets/img/team/magd.jpg')}}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61550079144274"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/magdishere/"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/magd-k-el-zalameh-233701275/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
+                            <h4>Magd El Zalameh</h4>
+                            <span>Web Developer</span>
                         </div>
                     </div>
                 </div>
@@ -568,15 +531,14 @@
                         <div class="member-img">
                             <img src="{{('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
                             <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.facebook.com/AyaHosnyZ/"><i class="bi bi-facebook"></i></a>
+                                <a href="https://www.instagram.com/ayahosni/"><i class="bi bi-instagram"></i></a>
+                                <a href="https://linkedin.com/in/ayahosny/"><i class="bi bi-linkedin"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
+                            <h4>Aya Hosny</h4>
+                            <span>Web Developer</span>
                         </div>
                     </div>
                 </div>
@@ -605,20 +567,22 @@
                     <div class="info">
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <h4>Locations:</h4>
+                            <p>Cairo, Egypt</p>
+                            <p>Beirut, Lebanon</p>
                         </div>
 
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com</p>
+                            <p>ayma.solutions.co@gmail.com</p>
                         </div>
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
                             <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
+                            <p>+20 100 6215138</p>
+                            <p>+961 76 326960</p>
                         </div>
 
                     </div>
