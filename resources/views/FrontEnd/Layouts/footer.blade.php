@@ -6,7 +6,7 @@
 
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-info">
-                        <img src="{{('assets/img/Logo/logo3.png')}}" class="logo me-auto me-lg-0 mb-5" alt="Your Logo" width="150px">
+                        <img src="{{('assets/img/Logo/logo.png')}}" class="logo me-auto me-lg-0 mb-5" alt="Your Logo" width="150px">
 
                         <p>
                             A108 Adam Street <br>
