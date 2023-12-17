@@ -80,22 +80,18 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #151515;
+  background: #000000;
 }
 
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 0px);
-  left: calc(50% - 30px);
-  border: 6px solid #E9CC1D;
-  border-top-color: #151515;
-  border-bottom-color: #151515;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1s linear infinite;
+#preloader img {
+    content: "";
+    position: fixed;
+    top: calc(50% - 0px);
+    left: calc(50% - 30px);
+    width: 200px;
+    height: 60px;
 }
+
 
 @keyframes animate-preloader {
   0% {
