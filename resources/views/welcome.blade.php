@@ -468,12 +468,12 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="{{('assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Matt Brandon</h3>
-                            <h4>Freelancer</h4>
+                            <img src="{{('assets/img/testimonials/elon.jpg')}}" class="testimonial-img" alt="">
+                            <h3>Elon Musk</h3>
+                            <h4>CEO of Tesla Motors</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
