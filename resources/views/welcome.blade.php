@@ -60,25 +60,46 @@
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
 
-            <div class="row">
-                <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-                    <img src="{{('assets/img/about.jpg')}}'" class="img-fluid" alt="">
+            <div class="row" style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center">
+                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/creative-solution.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Innovative Tools</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+
                 </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
-                    <ul>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                    </ul>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-                    </p>
+                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-6.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+
+                </div>
+                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-9.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+
+                </div>
+                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/ideas.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+
                 </div>
             </div>
 
