@@ -646,16 +646,16 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  border: 1px solid #ebebeb;
-  padding: 80px 20px;
+  padding: 60px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+
+    box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05);
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 125px;
+  height: 125px;
   background: #E9CC1D;
   border-radius: 4px;
   display: flex;
@@ -740,6 +740,19 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.services-card{
+    box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05);
+    padding: 50px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+
+}
+
+.services-card:hover {
+    transform: scale(1.05,1.05);
+    background-color: #bea60a;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }

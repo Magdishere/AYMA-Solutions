@@ -60,28 +60,46 @@
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
 
-            <div class="row" style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center">
-                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <div class="row">
+                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 services-card content" data-aos="fade-right" data-aos-delay="100">
                     <div class="wvc-icon-holder">
                         <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/creative-solution.gif')}}" width="128" height="128" alt="141" title="141">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
                         </div>
                     </div>
 
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Innovative Tools</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                            <h3 style="font-size:24px" class="wvc-icon-title">Point of Sale (POS) Solutions:</h3>
+                            <p style="">
+                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                            </p>
+                            <div class="count-box">
+                                <a href="">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
 
                 </div>
-                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <div style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center" class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                     <div class="wvc-icon-holder">
                         <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-6.gif')}}" width="128" height="128" alt="141" title="141">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/process-lists-8651038-6910253.gif')}}" width="128" height="128" alt="141" title="141">
                         </div>
                     </div>
 
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                            <h3 style="font-size:24px" class="wvc-icon-title">Enterprise Resource Planning (ERP):</h3>
+                            <p style="">
+                                Streamlined Operations, Finance Management, Human Resources Integration, Supply Chain Optimization, Data Analytics, Comprehensive Platform
+                            </p>
+                        </div>
+                    </div>
 
                 </div>
-                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                     <div class="wvc-icon-holder">
                         <div class="wvc-icon-container wvc-image-icon" style="">
                             <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-9.gif')}}" width="128" height="128" alt="141" title="141">
@@ -91,10 +109,55 @@
                     <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
 
                 </div>
-                <div class="col-lg-3 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            </div>
+
+        </div>
+    </section><section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 services-card content" data-aos="fade-right" data-aos-delay="100">
                     <div class="wvc-icon-holder">
                         <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/ideas.gif')}}" width="128" height="128" alt="141" title="141">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                            <h3 style="font-size:24px" class="wvc-icon-title">Point of Sale (POS) Solutions:</h3>
+                            <p style="">
+                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                            </p>
+                            <div class="count-box">
+                                <a href="">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center" class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/process-lists-8651038-6910253.gif')}}" width="128" height="128" alt="141" title="141">
+                        </div>
+                    </div>
+
+                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                            <h3 style="font-size:24px" class="wvc-icon-title">Enterprise Resource Planning (ERP):</h3>
+                            <p style="">
+                                Streamlined Operations, Finance Management, Human Resources Integration, Supply Chain Optimization, Data Analytics, Comprehensive Platform
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <div class="wvc-icon-holder">
+                        <div class="wvc-icon-container wvc-image-icon" style="">
+                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-9.gif')}}" width="128" height="128" alt="141" title="141">
                         </div>
                     </div>
 
@@ -104,7 +167,8 @@
             </div>
 
         </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -172,10 +236,27 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
-                        <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <h4><a href="">Lorem Ipsum</a></h4>
-                        <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-                    </div>
+                        <div class="wvc-icon-holder">
+                            <div class="wvc-icon-container wvc-image-icon" style="">
+                                <div class="icon">
+                                    <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                                <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                <p style="">
+                                    Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                </p>
+                                <div class="count-box">
+                                    <a href="">
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
