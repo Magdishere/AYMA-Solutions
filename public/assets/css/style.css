@@ -542,6 +542,78 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+/* Add this CSS to your stylesheet or in a <style> tag in the head of your HTML document */
+/* Style for the feature boxes */
+.feature-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Border color */
+    border-bottom: 6px solid #E9CC1D;
+    padding: 15px;
+    background-color: rgba(12, 11, 11, 0.9);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Style for the hidden paragraph */
+.feature-box .hidden-paragraph {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #E9CC1D;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 300px; /* Set a max-width if desired */
+    height: auto; /* Adjust height as needed */
+}
+
+/* Show the hidden paragraph when hovering over the feature box */
+.feature-box:hover .hidden-paragraph {
+    display: block;
+}
+
+/* Hide other content inside the feature box when hovering */
+.feature-box:hover img,
+.feature-box:hover p:not(.hidden-paragraph) {
+    opacity: 0;
+}
+
+
+.container-sm{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.feature-box .icon{
+    padding: 15px;
+}
+
+
+
+/* Style for the feature box images */
+
+.feature-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Style for the feature box paragraphs */
+.feature-box p {
+
+    font-size: 14px;
+    color: #E9CC1D; /* Text color */
+    text-align: center;
+
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 28px;
@@ -566,9 +638,6 @@ section {
   color: #E9CC1D;
 }
 
-.about .content p:last-child {
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Clients
@@ -740,17 +809,23 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .services-card{
-    box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05);
+
     padding: 50px;
     text-align: center;
     transition: transform 0.5s ease-in-out;
+    border-radius: 22px !important;
+    border-bottom: 6px solid #E9CC1D;
+    /* border-top: 1px solid #E9CC1D;
+    border-right: 1px solid #E9CC1D;
+    border-left: 1px solid #E9CC1D; */
 
 }
 
 .services-card:hover {
     transform: scale(1.05,1.05);
-    background-color: #bea60a;
+    background-color: #E9CC1D;
 }
 
 .portfolio .portfolio-item {

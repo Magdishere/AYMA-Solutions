@@ -57,118 +57,80 @@
 <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 services-card content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
-                        </div>
-                    </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
-                            <h3 style="font-size:24px" class="wvc-icon-title">Point of Sale (POS) Solutions:</h3>
-                            <p style="">
-                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                            </p>
-                            <div class="count-box">
-                                <a href="">
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                <h3 class="text-center">Welcome to <span style="color: #E9CC1D">AYMA Solutions</span></h3>
+                <div class="container-sm">
+                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center">
+                    We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
+                </p>
+                <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
+                </div>
+                <!-- New boxes with image and paragraph -->
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/uiux.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>Beautiful Designs</p>
+                                <p class="hidden-paragraph">Talented in crafting visually appealing and beautiful designs for your online presence.</p>
                             </div>
                         </div>
-
-                    </div>
-
-                </div>
-                <div style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center" class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/process-lists-8651038-6910253.gif')}}" width="128" height="128" alt="141" title="141">
-                        </div>
-                    </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
-                            <h3 style="font-size:24px" class="wvc-icon-title">Enterprise Resource Planning (ERP):</h3>
-                            <p style="">
-                                Streamlined Operations, Finance Management, Human Resources Integration, Supply Chain Optimization, Data Analytics, Comprehensive Platform
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-9.gif')}}" width="128" height="128" alt="141" title="141">
-                        </div>
-                    </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
-
-                </div>
-            </div>
-
-        </div>
-    </section><section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row">
-                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 services-card content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
-                        </div>
-                    </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
-                            <h3 style="font-size:24px" class="wvc-icon-title">Point of Sale (POS) Solutions:</h3>
-                            <p style="">
-                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                            </p>
-                            <div class="count-box">
-                                <a href="">
-                                    <i class="bi bi-arrow-right"></i>
-                                </a>
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/solutions.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>Tailored Solutions</p>
+                                <p class="hidden-paragraph">We understand that every project is unique. Our commitment is to provide customized solutions that precisely meet the individual needs and goals of each client.</p>
                             </div>
                         </div>
-
-                    </div>
-
-                </div>
-                <div style="box-shadow: 0px 15px 44px 0 rgba(0,0,0,.05); padding: 50px; text-align: center" class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/process-lists-8651038-6910253.gif')}}" width="128" height="128" alt="141" title="141">
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/time.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>We Stick to Timelines</p>
+                                <p class="hidden-paragraph">Time matters, and we get that. We promise to finish your project on time without compromising on quality. Your deadlines are important to us.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/quality.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>Quality Checked for You</p>
+                                <p class="hidden-paragraph">Before your website goes live, we make sure everything works perfectly. Your website won't just look good; it'll be smooth and easy for your visitors to use.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/customer.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>Continuous Support</p>
+                                <p class="hidden-paragraph">Once your website is up and running, we're not done. We provide ongoing support, updates, and help whenever you need it. Your success is our success.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="feature-box">
+                                <div class="icon">
+                                <img src="{{asset('assets/img/icons/prices.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                </div>
+                                <p>Clear and Competitive Prices</p>
+                                <p class="hidden-paragraph">No surprises in your bill. We're transparent about our prices from the start, so you know exactly what you're getting and how much it costs. Also very competitive.</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
-                            <h3 style="font-size:24px" class="wvc-icon-title">Enterprise Resource Planning (ERP):</h3>
-                            <p style="">
-                                Streamlined Operations, Finance Management, Human Resources Integration, Supply Chain Optimization, Data Analytics, Comprehensive Platform
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <div class="wvc-icon-holder">
-                        <div class="wvc-icon-container wvc-image-icon" style="">
-                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/web-9.gif')}}" width="128" height="128" alt="141" title="141">
-                        </div>
-                    </div>
-
-                    <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner"><h3 style="font-size:24px" class="wvc-icon-title">Creative Ideas</h3><p style="">Duis vel nibh at velit scelerisque suscipit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p></div></div>
-
                 </div>
             </div>
-
         </div>
-    </section>
-    <!-- End About Section -->
+    </div>
+</section><!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
