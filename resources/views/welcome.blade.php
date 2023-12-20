@@ -64,7 +64,7 @@
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3 class="text-center">Welcome to <span style="color: #E9CC1D">AYMA Solutions</span></h3>
                 <div class="container-sm">
-                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center">
+                <p class="container-sm col-lg-10 text-center">
                     We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
                 </p>
                 <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
@@ -152,39 +152,6 @@
 
         </div>
     </section><!-- End Clients Section -->
-
-    <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
-        <div class="container" data-aos="fade-up">
-
-            <div class="row">
-                <div class="image col-lg-6" style='background-image: url("{{('assets/img/features.jpg')}}");' data-aos="fade-right"></div>
-                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
-                    <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-                        <i class="bx bx-receipt"></i>
-                        <h4>Est labore ad</h4>
-                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                    </div>
-                    <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                        <i class="bx bx-cube-alt"></i>
-                        <h4>Harum esse qui</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                    </div>
-                    <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                        <i class="bx bx-images"></i>
-                        <h4>Aut occaecati</h4>
-                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                    </div>
-                    <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-                        <i class="bx bx-shield"></i>
-                        <h4>Beatae veritatis</h4>
-                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section><!-- End Features Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
