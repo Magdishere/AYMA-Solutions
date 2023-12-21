@@ -9,7 +9,9 @@
 
 <!-- Template Main JS File -->
 <script src="{{('assets/js/main.js')}}"></script>
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
+<script src='https://wlada.github.io/vue-carousel-3d/js/carousel-3d.umd.js'></script>
+<script  src="{{('assets/js/script.js')}}"></script>
 </body>
 
 </html>
