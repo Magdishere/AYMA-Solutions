@@ -460,12 +460,12 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="{{('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Saul Goodman</h3>
-                            <h4>Ceo &amp; Founder</h4>
+                            <img src="{{('assets/img/testimonials/marissa.jpg')}}" class="testimonial-img" alt="">
+                            <h3>Marissa Mayer</h3>
+                            <h4>Former CEO of Yahoo!</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                If you push through that feeling of being scared, that feeling of taking a risk, really amazing things can happen.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -473,12 +473,12 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="{{('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Sara Wilsson</h3>
-                            <h4>Designer</h4>
+                            <img src="{{('assets/img/testimonials/linus.jpeg')}}" class="testimonial-img" alt="">
+                            <h3>Linus Torvalds</h3>
+                            <h4>Creator of the Linux kernel</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -486,12 +486,12 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="{{('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Jena Karlis</h3>
-                            <h4>Store Owner</h4>
+                            <img src="{{('assets/img/testimonials/mark.jpg')}}" class="testimonial-img" alt="">
+                            <h3>Mark Zuckerberg</h3>
+                            <h4>CEO of Facebook</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                All of my friends who have younger siblings who are going to college or high school - my number one piece of advice is: You should learn how to program.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -512,12 +512,12 @@
 
                     <div class="swiper-slide">
                         <div class="testimonial-item">
-                            <img src="{{('assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
-                            <h3>John Larson</h3>
+                            <img src="{{('assets/img/testimonials/steve.jpg')}}" class="testimonial-img" alt="">
+                            <h3>Steve Jobs</h3>
                             <h4>Entrepreneur</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
