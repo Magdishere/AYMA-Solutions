@@ -63,13 +63,10 @@
         <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3 class="text-center">Welcome to <span style="color: #E9CC1D">AYMA Solutions</span></h3>
-<<<<<<< HEAD
                 <div class="container-sm">
                 <p class="container-sm col-lg-10 text-center">
-=======
                 <div class="container-sm col-lg-10 text-center">
                 <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center">
->>>>>>> e60af437690b1ee25cbfceb9d9e0dc961df6058f
                     We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
                 </p>
                 <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
@@ -167,6 +164,173 @@
                 <p>Check our Services</p>
             </div>
 
+            <div class="wrap-home-resources">
+
+                <!-- <script src="./home-resources.js" inline></script> -->
+
+                <div class="home-resources-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div id="carousel-home-resources" class="carousel-home-resources">
+                                    <carousel-3d
+                                        :perspective="30"
+                                        :border="0"
+                                        :width="585"
+                                        :height="370"
+                                        :controls-visible="true"
+                                        :space="500"
+                                        :clickable="true">
+
+                                        <slide :index="0">
+                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                <div class="icon-box">
+                                                    <div class="wvc-icon-holder">
+                                                        <div class="wvc-icon-container wvc-image-icon" style="">
+                                                            <div class="icon">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wvc-icon-text-holder">
+                                                        <div class="wvc-icon-text-inner">
+                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <p style="">
+                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                            </p>
+                                                            <div class="count-box">
+                                                                <a href="">
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </slide>
+
+                                        <slide :index="1">
+                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                <div class="icon-box">
+                                                    <div class="wvc-icon-holder">
+                                                        <div class="wvc-icon-container wvc-image-icon" style="">
+                                                            <div class="icon">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wvc-icon-text-holder">
+                                                        <div class="wvc-icon-text-inner">
+                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <p style="">
+                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                            </p>
+                                                            <div class="count-box">
+                                                                <a href="">
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </slide>
+
+                                        <slide :index="2">
+                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                <div class="icon-box">
+                                                    <div class="wvc-icon-holder">
+                                                        <div class="wvc-icon-container wvc-image-icon" style="">
+                                                            <div class="icon">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wvc-icon-text-holder">
+                                                        <div class="wvc-icon-text-inner">
+                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <p style="">
+                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                            </p>
+                                                            <div class="count-box">
+                                                                <a href="">
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </slide>
+
+                                        <slide :index="3">
+                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                <div class="icon-box">
+                                                    <div class="wvc-icon-holder">
+                                                        <div class="wvc-icon-container wvc-image-icon" style="">
+                                                            <div class="icon">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wvc-icon-text-holder">
+                                                        <div class="wvc-icon-text-inner">
+                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <p style="">
+                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                            </p>
+                                                            <div class="count-box">
+                                                                <a href="">
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </slide>
+                                        <slide :index="4">
+                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                <div class="icon-box">
+                                                    <div class="wvc-icon-holder">
+                                                        <div class="wvc-icon-container wvc-image-icon" style="">
+                                                            <div class="icon">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="wvc-icon-text-holder">
+                                                        <div class="wvc-icon-text-inner">
+                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <p style="">
+                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                            </p>
+                                                            <div class="count-box">
+                                                                <a href="">
+                                                                    <i class="bi bi-arrow-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </slide>
+
+                                    </carousel-3d>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                     <div class="icon-box">
@@ -178,7 +342,8 @@
                             </div>
                         </div>
 
-                        <div class="wvc-icon-text-holder"><div class="wvc-icon-text-inner">
+                        <div class="wvc-icon-text-holder">
+                            <div class="wvc-icon-text-inner">
                                 <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
                                 <p style="">
                                     Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
@@ -658,7 +823,6 @@
     </section><!-- End Contact Section -->
 
 </main><!-- End #main -->
-
 @include('FrontEnd.Layouts.footer')
 
 <div id="preloader">
