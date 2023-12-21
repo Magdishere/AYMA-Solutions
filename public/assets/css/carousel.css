@@ -1,6 +1,8 @@
-.carousel-home-resources .left-1 {
-    transform: translateX(-500px) translateZ(-400px) rotateY(-30deg) !important;
+ .carousel-home-resources .left-1 {
+    transform: translateX(-100px) translateZ(-100px) rotateY(0deg) !important;
+
 }
 .carousel-home-resources .right-1 {
-    transform: translateX(500px) translateZ(-400px) rotateY(30deg) !important;
+    transform: translateX(-100px) translateZ(-100px) rotateY(0deg) !important;
 }
+

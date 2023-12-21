@@ -179,10 +179,11 @@
                                         :width="585"
                                         :height="370"
                                         :controls-visible="true"
-                                        :space="500"
-                                        :clickable="true">
+                                        :space="1000"
+                                        :clickable="true"
+                                        >
 
-                                        <slide :index="0">
+                                        <slide :index="0" class="slide">
                                             <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                                 <div class="icon-box">
                                                     <div class="wvc-icon-holder">
@@ -211,22 +212,22 @@
 
                                         </slide>
 
-                                        <slide :index="1">
+                                        <slide :index="1" class="slide1">
                                             <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                                 <div class="icon-box">
                                                     <div class="wvc-icon-holder">
                                                         <div class="wvc-icon-container wvc-image-icon" style="">
                                                             <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/custom.gif')}}" width="128" height="128" alt="141" title="141">
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                     <div class="wvc-icon-text-holder">
                                                         <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <h4><a href="">Custom Website Development</a></h4>
                                                             <p style="">
-                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                                Design and develop custom websites tailored to the unique needs and branding of your clients
                                                             </p>
                                                             <div class="count-box">
                                                                 <a href="">
@@ -240,22 +241,22 @@
 
                                         </slide>
 
-                                        <slide :index="2">
+                                        <slide :index="2" class="slide2">
                                             <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                                                 <div class="icon-box">
                                                     <div class="wvc-icon-holder">
                                                         <div class="wvc-icon-container wvc-image-icon" style="">
                                                             <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/ecommerce.gif')}}" width="128" height="128" alt="141" title="141">
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                     <div class="wvc-icon-text-holder">
                                                         <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
+                                                            <h4><a href="">Ecommerce Solutions</a></h4>
                                                             <p style="">
-                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
+                                                                We build online stores with secure payment gateways, product catalogs, and inventory management.
                                                             </p>
                                                             <div class="count-box">
                                                                 <a href="">
@@ -267,62 +268,6 @@
                                                 </div>
                                             </div>
                                         </slide>
-
-                                        <slide :index="3">
-                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="icon-box">
-                                                    <div class="wvc-icon-holder">
-                                                        <div class="wvc-icon-container wvc-image-icon" style="">
-                                                            <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wvc-icon-text-holder">
-                                                        <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
-                                                            <p style="">
-                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                                                            </p>
-                                                            <div class="count-box">
-                                                                <a href="">
-                                                                    <i class="bi bi-arrow-right"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </slide>
-                                        <slide :index="4">
-                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="icon-box">
-                                                    <div class="wvc-icon-holder">
-                                                        <div class="wvc-icon-container wvc-image-icon" style="">
-                                                            <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wvc-icon-text-holder">
-                                                        <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
-                                                            <p style="">
-                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                                                            </p>
-                                                            <div class="count-box">
-                                                                <a href="">
-                                                                    <i class="bi bi-arrow-right"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </slide>
-
                                     </carousel-3d>
                                 </div>
                             </div>
@@ -330,76 +275,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <div class="wvc-icon-holder">
-                            <div class="wvc-icon-container wvc-image-icon" style="">
-                                <div class="icon">
-                                    <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="wvc-icon-text-holder">
-                            <div class="wvc-icon-text-inner">
-                                <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
-                                <p style="">
-                                    Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                                </p>
-                                <div class="count-box">
-                                    <a href="">
-                                        <i class="bi bi-arrow-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-file"></i></div>
-                        <h4><a href="">Sed ut perspiciatis</a></h4>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-tachometer"></i></div>
-                        <h4><a href="">Magni Dolores</a></h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-world"></i></div>
-                        <h4><a href="">Nemo Enim</a></h4>
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-slideshow"></i></div>
-                        <h4><a href="">Dele cardo</a></h4>
-                        <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-arch"></i></div>
-                        <h4><a href="">Divera don</a></h4>
-                        <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-                    </div>
-                </div>
-
-            </div>
-
         </div>
     </section><!-- End Services Section -->
 
