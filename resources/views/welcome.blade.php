@@ -63,8 +63,13 @@
         <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
                 <h3 class="text-center">Welcome to <span style="color: #E9CC1D">AYMA Solutions</span></h3>
+<<<<<<< HEAD
                 <div class="container-sm">
                 <p class="container-sm col-lg-10 text-center">
+=======
+                <div class="container-sm col-lg-10 text-center">
+                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center">
+>>>>>>> e60af437690b1ee25cbfceb9d9e0dc961df6058f
                     We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
                 </p>
                 <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
