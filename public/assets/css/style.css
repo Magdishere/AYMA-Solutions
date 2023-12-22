@@ -587,11 +587,7 @@ section {
 --------------------------------------------------------------*/
 /* Add this CSS to your stylesheet or in a <style> tag in the head of your HTML document */
 /* Style for the feature boxes */
-.about{
-    background-color: #191b20;
-    background-color: rgba(12, 11, 11, 0.9);
 
-}
 .feature-box {
     position: relative;
     display: flex;
@@ -601,7 +597,7 @@ section {
     /* Border color */
     border-bottom: 6px solid #E9CC1D;
     padding: 15px;
-    background-color: rgba(12, 11, 11, 0.9);
+    background-color: #2b2b2b;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -761,6 +757,15 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services,
+.about,
+.contact,
+.portfolio,
+.team,
+.clients{
+    background-color: #212121;
+    /* background-color: rgba(12, 11, 11, 0.9); */
+}
 .services .icon-box{
   text-align: center;
   padding: 60px;
@@ -866,9 +871,18 @@ section {
   color: #151515;
 }
 
+.section-title h2{
+    color: #fff;
+}
+.section-title p{
+    color: #fff;
+}
+
 /*--------------------------------------------------------------
+
 # Portfolio
 --------------------------------------------------------------*/
+
 
 .services-card{
 
@@ -1323,7 +1337,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+
   padding: 60px 0;
 }
 
@@ -1410,7 +1424,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+
 }
 
 .contact .info i {
@@ -1432,14 +1446,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: #ABBFCA;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
+  color: #ABBFCA;
 }
 
 .contact .info .email,
@@ -1449,7 +1463,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1597,14 +1610,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: black;
+  background: #000000;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #151515;
+  background: #000000;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
 }
@@ -1744,3 +1757,6 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+

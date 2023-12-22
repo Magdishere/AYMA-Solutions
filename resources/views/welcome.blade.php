@@ -40,11 +40,11 @@
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3 class="text-center" style="color: #ABBFCA">Welcome to <span id="typingText" style="color: #E9CC1D">AYMA Solutions</span></h3>
+                <h3 class="text-center" style="color: #fff">Welcome to <span id="typingText" style="color: #E9CC1D">AYMA Solutions</span></h3>
                 <div class="container-sm">
                 <p class="container-sm col-lg-10 text-center">
                 <div class="container-sm col-lg-10 text-center">
-                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center" style="color: #ABBFCA">
+                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center" style="color: #fff">
                     We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
                 </p>
                 <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
@@ -139,7 +139,7 @@
 
             <div class="section-title">
                 <h2>Services</h2>
-                <p>Check our Services</p>
+                <p>Check <span style="color: #E9CC1D">Our Services</span></p>
             </div>
 
             <div class="wrap-home-resources">
@@ -256,26 +256,13 @@
         </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-
-            <div class="text-center">
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
-            </div>
-
-        </div>
-    </section><!-- End Cta Section -->
-
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
                 <h2>Portfolio</h2>
-                <p>Check our Portfolio</p>
+                <p>Check <span style="color: #E9CC1D">Our Portfolio</span></p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -422,7 +409,7 @@
         </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Counts Section ======= -->
+    {{-- <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
         <div class="container" data-aos="fade-up">
 
@@ -472,7 +459,7 @@
             </div>
 
         </div>
-    </section><!-- End Counts Section -->
+    </section><!-- End Counts Section --> --}}
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -558,7 +545,7 @@
 
             <div class="section-title">
                 <h2>Team</h2>
-                <p>Check our Team</p>
+                <p>Check <span style="color: #E9CC1D">Our Team</span></p>
             </div>
 
             <div class="row justify-content-center">
@@ -608,7 +595,7 @@
 
             <div class="section-title">
                 <h2>Contact</h2>
-                <p>Contact Us</p>
+                <p>Contact <span style="color: #E9CC1D">Us</span></p>
             </div>
 
             <div>
@@ -674,6 +661,8 @@
 
         </div>
     </section><!-- End Contact Section -->
+
+
 
 </main><!-- End #main -->
 @include('FrontEnd.Layouts.footer')
