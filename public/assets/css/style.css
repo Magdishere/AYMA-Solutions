@@ -508,9 +508,19 @@ span.cursor {
   line-height: 26px;
 }
 
+
 #hero .icon-box h3 a {
   color: #fff;
   transition: ease-in-out 0.3s;
+}
+
+#hero .whatsapp {
+
+    align-items: center;
+}
+
+#hero .whatsapp i {
+    margin-right: 8px; /* Adjust the margin as needed */
 }
 
 #hero .icon-box h3 a:hover {

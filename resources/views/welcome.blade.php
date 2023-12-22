@@ -21,11 +21,10 @@
             </div>
         </div>
 
-        <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="row gy-4 mt-1 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
             <div class="col-xl-12 col-md-4">
-                <form action="" method="post">
-                    <input type="email" name="email"><input type="submit" value="Subscribe">
-                </form>
+                <a href="https://wa.me/+96176326960" class="get-started-btn scrollto whatsapp"><i class="fas fa-phone-alt"></i>Let's Start!</a>
+                <a href="#blog" class="get-started-btn scrollto whatsapp"><i class="fas fa-blog"></i>Our Blog</a>
             </div>
         </div>
 
