@@ -20,6 +20,38 @@
     }
   }
 
+  document.addEventListener('DOMContentLoaded', function () {
+    const typingText = document.getElementById('typingText');
+
+    function typeEffect() {
+        const text = "AYMA Solutions";
+        let index = 0;
+
+        function type() {
+            if (index < text.length) {
+                typingText.innerHTML += text.charAt(index);
+                index++;
+                setTimeout(type, 150); // Adjust the typing speed (in milliseconds)
+            } else {
+                setTimeout(erase, 1000); // Wait before erasing
+            }
+        }
+
+        function erase() {
+            if (index > 0) {
+                typingText.innerHTML = text.substring(0, index - 1);
+                index--;
+                setTimeout(erase, 50); // Adjust the erasing speed (in milliseconds)
+            } else {
+                setTimeout(type, 500); // Wait before typing again
+            }
+        }
+
+        type();
+    }
+
+    typeEffect(); // Start the typing effect
+});
   //Typing effect for the paragraph in the Hero Section
 
           // Function to create the typing effect
