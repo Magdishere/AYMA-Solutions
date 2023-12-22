@@ -13,41 +13,19 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-6 col-lg-8">
-                <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-                <h2>We are team of talented digital marketers</h2>
+                <h1>Unlock Your Online Presence With <span>Us</span></h1>
+                <p id="typing-text" style="color: white">Ready to elevate your business with a stunning website?
+                Let's create a digital masterpiece together!</p>
+
+
             </div>
         </div>
 
         <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-store-line"></i>
-                    <h3><a href="">Lorem Ipsum</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-bar-chart-box-line"></i>
-                    <h3><a href="">Dolor Sitema</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-calendar-todo-line"></i>
-                    <h3><a href="">Sedare Perspiciatis</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-paint-brush-line"></i>
-                    <h3><a href="">Magni Dolores</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-database-2-line"></i>
-                    <h3><a href="">Nemos Enimade</a></h3>
-                </div>
+            <div class="col-xl-12 col-md-4">
+                <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
             </div>
         </div>
 

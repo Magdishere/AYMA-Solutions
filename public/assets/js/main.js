@@ -20,6 +20,28 @@
     }
   }
 
+  //Typing effect for the paragraph in the Hero Section
+
+          // Function to create the typing effect
+          function typeEffect(element, speed) {
+            const text = element.innerHTML;
+            element.innerHTML = '';
+
+            let i = 0;
+            const typingInterval = setInterval(function () {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(typingInterval);
+                }
+            }, speed);
+        }
+
+        // Call the typing effect function on the desired paragraph
+        const typingParagraph = document.getElementById('typing-text');
+        typeEffect(typingParagraph, 50); // You can adjust the speed (milliseconds per character)
+
   /**
    * Easy event listener function
    */
@@ -35,7 +57,7 @@
   }
 
   /**
-   * Easy on scroll event listener 
+   * Easy on scroll event listener
    */
   const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
@@ -232,7 +254,7 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
+   * Initiate portfolio lightbox
    */
   const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
@@ -286,7 +308,7 @@
   });
 
   /**
-   * Initiate Pure Counter 
+   * Initiate Pure Counter
    */
   new PureCounter();
 
