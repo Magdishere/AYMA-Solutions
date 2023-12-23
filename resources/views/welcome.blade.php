@@ -13,18 +13,15 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-6 col-lg-8">
-                <h1>Unlock Your Online Presence With <span>Us<span class="cursor"></span></span></h1>
-                <p id="typing-text" style="color: white">Ready to elevate your business with a stunning website?
-                Let's create a digital masterpiece together!</p>
-
-
+                <h1>{{ __('messages.hero_section_title') }}</h1>
+                <p id="typing-text" style="color: white">{{ __('messages.hero_section_subtitle') }}</p>
             </div>
         </div>
 
         <div class="row gy-4 mt-1 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
             <div class="col-xl-12 col-md-4">
-                <a href="https://wa.me/+96176326960" class="get-started-btn scrollto whatsapp"><i class="fas fa-phone-alt"></i>Let's Start!</a>
-                <a href="#blog" class="get-started-btn scrollto whatsapp"><i class="fas fa-blog"></i>Our Blog</a>
+                <a href="https://wa.me/+96176326960" class="get-started-btn scrollto whatsapp"><i class="fas fa-phone-alt"></i>{{ __('messages.start_button') }}</a>
+                <a href="#blog" class="get-started-btn scrollto whatsapp"><i class="fas fa-blog"></i>{{ __('messages.blog_button') }}</a>
             </div>
         </div>
 
@@ -34,82 +31,81 @@
 <main id="main">
 
     <!-- ======= About Section ======= -->
-<!-- ======= About Section ======= -->
-<section id="about" class="about">
-    <div class="container" data-aos="fade-up">
-        <div class="row">
-            <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3 class="text-center" style="color: #fff">Welcome to <span id="typingText" style="color: #E9CC1D">AYMA Solutions</span></h3>
-                <div class="container-sm">
-                <p class="container-sm col-lg-10 text-center">
-                <div class="container-sm col-lg-10 text-center">
-                <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center" style="color: #fff">
-                    We're a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you're new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...
-                </p>
-                <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
-                </div>
-                <!-- New boxes with image and paragraph -->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+                    <h3 class="text-center" style="color: #fff">{{ __('messages.about_section_title') }} <span id="typingText" style="color: #E9CC1D">{{ __('messages.about_section_subtitle') }}</span></h3>
+                    <div class="container-sm">
+                        <p class="container-sm col-lg-10 text-center">
+                        <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center" style="color: #fff">{{ __('messages.about_section_subtitle') }}</p>
+
+                        <hr class="short mx-auto" data-zanim-xs="{&quot;from&quot;:{&quot;opacity&quot;:0,&quot;width&quot;:0},&quot;to&quot;:{&quot;opacity&quot;:1,&quot;width&quot;:&quot;4.20873rem&quot;},&quot;duration&quot;:0.8}" style="width: 4.3em; opacity: 1;">
+                    </div>
+                    <!-- New boxes with image and paragraph -->
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/uiux.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/uiux.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>Beautiful Designs</p>
-                                <p class="hidden-paragraph">Talented in crafting visually appealing and beautiful designs for your online presence.</p>
+                                <p>{{ __('messages.designs_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.designs_feature_description') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/solutions.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/solutions.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>Tailored Solutions</p>
-                                <p class="hidden-paragraph">We understand that every project is unique. Our commitment is to provide customized solutions that precisely meet the individual needs and goals of each client.</p>
+                                <p>{{ __('messages.solutions_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.solutions_feature_description') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/time.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/time.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>We Stick to Timelines</p>
-                                <p class="hidden-paragraph">Time matters, and we get that. We promise to finish your project on time without compromising on quality. Your deadlines are important to us.</p>
+                                <p>{{ __('messages.timelines_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.timelines_feature_description') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/quality.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/quality.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>Quality Checked for You</p>
-                                <p class="hidden-paragraph">Before your website goes live, we make sure everything works perfectly. Your website won't just look good; it'll be smooth and easy for your visitors to use.</p>
+                                <p>{{ __('messages.quality_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.quality_feature_description') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/customer.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/customer.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>Continuous Support</p>
-                                <p class="hidden-paragraph">Once your website is up and running, we're not done. We provide ongoing support, updates, and help whenever you need it. Your success is our success.</p>
+                                <p>{{ __('messages.support_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.support_feature_description') }}</p>
                             </div>
                         </div>
                         <div class="col-lg-3">
                             <div class="feature-box">
                                 <div class="icon">
-                                <img src="{{asset('assets/img/icons/prices.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
+                                    <img src="{{asset('assets/img/icons/prices.png')}}" style="width: 80px; height: 80px;" alt="Image 1">
                                 </div>
-                                <p>Clear and Competitive Prices</p>
-                                <p class="hidden-paragraph">No surprises in your bill. We're transparent about our prices from the start, so you know exactly what you're getting and how much it costs. Also very competitive.</p>
+                                <p>{{ __('messages.prices_feature_title') }}</p>
+                                <p class="hidden-paragraph">{{ __('messages.prices_feature_description') }}</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section><!-- End About Section -->
+        </div>
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -130,147 +126,157 @@
             </div>
 
         </div>
-    </section><!-- End Clients Section -->
+    </section>
+    <!-- End Clients Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
 
-            <div class="section-title">
-                <h2>Services</h2>
-                <p>Check <span style="color: #E9CC1D">Our Services</span></p>
-            </div>
-
             <div class="wrap-home-resources">
 
                 <!-- <script src="./home-resources.js" inline></script> -->
 
-                <div class="home-resources-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div id="carousel-home-resources" class="carousel-home-resources">
-                                    <carousel-3d
-                                        :perspective="30"
-                                        :border="0"
-                                        :width="585"
-                                        :height="370"
-                                        :controls-visible="true"
-                                        :space="1000"
-                                        :clickable="true"
-                                        >
+                <section id="services" class="services">
+                    <div class="container" data-aos="fade-up">
 
-                                        <slide :index="0" class="slide">
-                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="icon-box">
-                                                    <div class="wvc-icon-holder">
-                                                        <div class="wvc-icon-container wvc-image-icon" style="">
-                                                            <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                        <div class="section-title">
+                            <h2>{{ __('messages.services_section_title') }}</h2>
+                            <p>{{ __('messages.check_our_services') }} <span style="color: #E9CC1D">{{ __('messages.our_services') }}</span></p>
+                        </div>
+
+                        <div class="wrap-home-resources">
+
+                            <!-- <script src="./home-resources.js" inline></script> -->
+
+                            <div class="home-resources-content">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div id="carousel-home-resources" class="carousel-home-resources">
+                                                <carousel-3d
+                                                    :perspective="30"
+                                                    :border="0"
+                                                    :width="585"
+                                                    :height="370"
+                                                    :controls-visible="true"
+                                                    :space="1000"
+                                                    :clickable="true"
+                                                >
+
+                                                    <slide :index="0" class="slide">
+                                                        <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                            <div class="icon-box">
+                                                                <div class="wvc-icon-holder">
+                                                                    <div class="wvc-icon-container wvc-image-icon" style="">
+                                                                        <div class="icon">
+                                                                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/pos-9966997-8161231.gif')}}" width="128" height="128" alt="141" title="141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="wvc-icon-text-holder">
+                                                                    <div class="wvc-icon-text-inner">
+                                                                        <h4><a href="">{{ __('messages.pos_solutions') }}</a></h4>
+                                                                        <p style="">
+                                                                            {{ __('messages.pos_solutions_description') }}
+                                                                        </p>
+                                                                        <div class="count-box">
+                                                                            <a href="">
+                                                                                <i class="bi bi-arrow-right"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </slide>
 
-                                                    <div class="wvc-icon-text-holder">
-                                                        <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Point of Sale (POS) Solutions:</a></h4>
-                                                            <p style="">
-                                                                Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface
-                                                            </p>
-                                                            <div class="count-box">
-                                                                <a href="">
-                                                                    <i class="bi bi-arrow-right"></i>
-                                                                </a>
+                                                    <slide :index="1" class="slide1">
+                                                        <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                            <div class="icon-box">
+                                                                <div class="wvc-icon-holder">
+                                                                    <div class="wvc-icon-container wvc-image-icon" style="">
+                                                                        <div class="icon">
+                                                                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/custom.gif')}}" width="128" height="128" alt="141" title="141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="wvc-icon-text-holder">
+                                                                    <div class="wvc-icon-text-inner">
+                                                                        <h4><a href="">{{ __('messages.custom_website_development') }}</a></h4>
+                                                                        <p style="">
+                                                                            {{ __('messages.custom_website_development_description') }}
+                                                                        </p>
+                                                                        <div class="count-box">
+                                                                            <a href="">
+                                                                                <i class="bi bi-arrow-right"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                </div>
+                                                    </slide>
+
+                                                    <slide :index="2" class="slide2">
+                                                        <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                                                            <div class="icon-box">
+                                                                <div class="wvc-icon-holder">
+                                                                    <div class="wvc-icon-container wvc-image-icon" style="">
+                                                                        <div class="icon">
+                                                                            <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/ecommerce.gif')}}" width="128" height="128" alt="141" title="141">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="wvc-icon-text-holder">
+                                                                    <div class="wvc-icon-text-inner">
+                                                                        <h4><a href="">{{ __('messages.ecommerce_solutions') }}</a></h4>
+                                                                        <p style="">
+                                                                            {{ __('messages.ecommerce_solutions_description') }}
+                                                                        </p>
+                                                                        <div class="count-box">
+                                                                            <a href="">
+                                                                                <i class="bi bi-arrow-right"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </slide>
+                                                </carousel-3d>
                                             </div>
-
-                                        </slide>
-
-                                        <slide :index="1" class="slide1">
-                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="icon-box">
-                                                    <div class="wvc-icon-holder">
-                                                        <div class="wvc-icon-container wvc-image-icon" style="">
-                                                            <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/custom.gif')}}" width="128" height="128" alt="141" title="141">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wvc-icon-text-holder">
-                                                        <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Custom Website Development</a></h4>
-                                                            <p style="">
-                                                                Design and develop custom websites tailored to the unique needs and branding of your clients
-                                                            </p>
-                                                            <div class="count-box">
-                                                                <a href="">
-                                                                    <i class="bi bi-arrow-right"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </slide>
-
-                                        <slide :index="2" class="slide2">
-                                            <div class="col-lg-12 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                                                <div class="icon-box">
-                                                    <div class="wvc-icon-holder">
-                                                        <div class="wvc-icon-container wvc-image-icon" style="">
-                                                            <div class="icon">
-                                                                <img loading="lazy" decoding="async" class="wvc-image-icon " src="{{asset('assets/img/icons/ecommerce.gif')}}" width="128" height="128" alt="141" title="141">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="wvc-icon-text-holder">
-                                                        <div class="wvc-icon-text-inner">
-                                                            <h4><a href="">Ecommerce Solutions</a></h4>
-                                                            <p style="">
-                                                                We build online stores with secure payment gateways, product catalogs, and inventory management.
-                                                            </p>
-                                                            <div class="count-box">
-                                                                <a href="">
-                                                                    <i class="bi bi-arrow-right"></i>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </slide>
-                                    </carousel-3d>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </section><!-- End Services Section -->
             </div>
         </div>
-    </section><!-- End Services Section -->
+    </section>
+    <!-- End Services Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Portfolio</h2>
-                <p>Check <span style="color: #E9CC1D">Our Portfolio</span></p>
+                <h2>{{ __('messages.portfolio_section_title') }}</h2>
+                <p>{!! __('messages.check_our_portfolio') !!}</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
+                        <li data-filter="*" class="filter-active">{{ __('messages.portfolio_filter_all') }}</li>
+                        <li data-filter=".filter-app">{{ __('messages.portfolio_filter_app') }}</li>
+                        <li data-filter=".filter-card">{{ __('messages.portfolio_filter_card') }}</li>
+                        <li data-filter=".filter-web">{{ __('messages.portfolio_filter_web') }}</li>
                     </ul>
                 </div>
             </div>
@@ -406,7 +412,8 @@
             </div>
 
         </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!-- End Portfolio Section -->
 
     {{-- <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -467,66 +474,71 @@
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
 
+                    <!-- Testimonial 1 -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="{{('assets/img/testimonials/marissa.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Marissa Mayer</h3>
-                            <h4>Former CEO of Yahoo!</h4>
+                            <h3>{{ __('messages.marissa_name') }}</h3>
+                            <h4>{{ __('messages.marissa_position') }}</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                If you push through that feeling of being scared, that feeling of taking a risk, really amazing things can happen.
+                                {{ __('messages.marissa_quote') }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
+                    <!-- Testimonial 2 -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="{{('assets/img/testimonials/linus.jpeg')}}" class="testimonial-img" alt="">
-                            <h3>Linus Torvalds</h3>
-                            <h4>Creator of the Linux kernel</h4>
+                            <h3>{{ __('messages.linus_name') }}</h3>
+                            <h4>{{ __('messages.linus_position') }}</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                Most of the good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.
+                                {{ __('messages.linus_quote') }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
+                    <!-- Testimonial 3 -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="{{('assets/img/testimonials/mark.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Mark Zuckerberg</h3>
-                            <h4>CEO of Facebook</h4>
+                            <h3>{{ __('messages.mark_name') }}</h3>
+                            <h4>{{ __('messages.mark_position') }}</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                All of my friends who have younger siblings who are going to college or high school - my number one piece of advice is: You should learn how to program.
+                                {{ __('messages.mark_quote') }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
+                    <!-- Testimonial 4 -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="{{('assets/img/testimonials/elon.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Elon Musk</h3>
-                            <h4>CEO of Tesla Motors</h4>
+                            <h3>{{ __('messages.elon_name') }}</h3>
+                            <h4>{{ __('messages.elon_position') }}</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                I taught myself how to program computers when I was a kid, bought my first computer when I was 10, and sold my first commercial program when I was 12.
+                                {{ __('messages.elon_quote') }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
                     </div><!-- End testimonial item -->
 
+                    <!-- Testimonial 5 -->
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <img src="{{('assets/img/testimonials/steve.jpg')}}" class="testimonial-img" alt="">
-                            <h3>Steve Jobs</h3>
-                            <h4>Entrepreneur</h4>
+                            <h3>{{ __('messages.steve_name') }}</h3>
+                            <h4>{{ __('messages.steve_position') }}</h4>
                             <p>
                                 <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                                You can't just ask customers what they want and then try to give that to them. By the time you get it built, they'll want something new.
+                                {{ __('messages.steve_quote') }}
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
                         </div>
@@ -536,15 +548,16 @@
             </div>
 
         </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+    <!-- End Testimonials Section -->
 
-    <!-- ======= Team Section ======= -->
+    <!-- Team Section -->
     <section id="team" class="team">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Team</h2>
-                <p>Check <span style="color: #E9CC1D">Our Team</span></p>
+                <h2>{{ __('messages.team') }}</h2>
+                <p>{{ __('messages.check_our_team') }} <span style="color: #E9CC1D">{{ __('messages.our_team') }}</span></p>
             </div>
 
             <div class="row justify-content-center">
@@ -560,8 +573,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Magd El Zalameh</h4>
-                            <span>Web Developer</span>
+                            <h4>{{ __('messages.magd_name') }}</h4>
+                            <span>{{ __('messages.web_developer') }}</span>
                         </div>
                     </div>
                 </div>
@@ -577,8 +590,8 @@
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4>Aya Hosny</h4>
-                            <span>Web Developer</span>
+                            <h4>{{ __('messages.aya_name') }}</h4>
+                            <span>{{ __('messages.web_developer') }}</span>
                         </div>
                     </div>
                 </div>
@@ -586,15 +599,16 @@
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Team Section -->
 
-    <!-- ======= Contact Section ======= -->
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
-                <p>Contact <span style="color: #E9CC1D">Us</span></p>
+                <h2>{{ __('messages.contact') }}</h2>
+                <p>{{ __('messages.contact_us') }} <span style="color: #E9CC1D">{{ __('messages.us') }}</span></p>
             </div>
 
             <div>
@@ -607,20 +621,20 @@
                     <div class="info">
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
-                            <h4>Locations:</h4>
-                            <p>Cairo, Egypt</p>
-                            <p>Beirut, Lebanon</p>
+                            <h4>{{ __('messages.locations') }}:</h4>
+                            <p>{{ __('messages.cairo_egypt') }}</p>
+                            <p>{{ __('messages.beirut_lebanon') }}</p>
                         </div>
 
                         <div class="email">
                             <i class="bi bi-envelope"></i>
-                            <h4>Email:</h4>
+                            <h4>{{ __('messages.email') }}:</h4>
                             <p>ayma.solutions.co@gmail.com</p>
                         </div>
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
+                            <h4>{{ __('messages.call') }}:</h4>
                             <p>+20 100 6215138</p>
                             <p>+961 76 326960</p>
                         </div>
@@ -634,24 +648,24 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="{{ __('messages.your_name') }}" required>
                             </div>
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="{{ __('messages.your_email') }}" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="{{ __('messages.subject') }}" required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="{{ __('messages.message') }}" required></textarea>
                         </div>
                         <div class="my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">{{ __('messages.loading') }}</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">{{ __('messages.message_sent') }}</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button type="submit">{{ __('messages.send_message') }}</button></div>
                     </form>
 
                 </div>
@@ -659,7 +673,8 @@
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
 
 
