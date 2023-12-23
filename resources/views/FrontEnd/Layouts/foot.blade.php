@@ -48,7 +48,7 @@
 
                     var currentLocale = '{{ LaravelLocalization::getCurrentLocale() }}';
                     if (currentLocale === 'ar') {
-                        $('.label').css('background', 'url("../img/flags/lebanon.png")');
+                        $('.label:before').css('background', 'url("../img/flags/lebanon.png")');
                     } else {
                         $('.label').css('background', 'url("../img/flags/lebanon.png")');
                     }
