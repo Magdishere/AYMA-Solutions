@@ -26,5 +26,5 @@ Route::group(
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::post('set-locale', [\App\Http\Controllers\LocaleController::class, 'setLocale']);
 });
