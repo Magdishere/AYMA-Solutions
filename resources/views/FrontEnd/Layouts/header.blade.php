@@ -35,9 +35,9 @@
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
-        <a href="#about" class="get-started-btn scrollto ">Get Started
-
-        </a>
-
+        <div>
+        <input type="checkbox" id="toggle_checkbox">
+        <label for="toggle_checkbox" class="nav-link scrollto"></label>
+        </div>
     </div>
 </header><!-- End Header -->

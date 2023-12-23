@@ -701,7 +701,7 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
+  opacity: 0.9;
   transition: 0.3s;
   filter: grayscale(100);
 }
@@ -1770,3 +1770,63 @@ section {
 
 
 
+
+
+
+
+
+#toggle_checkbox {
+    display: none;
+    align-items: center;
+}
+
+label {
+    position: relative;
+    top: 10px;
+    right: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+label:before,
+label:after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+}
+
+label:before {
+    background: url('../img/flags/united.png'); /* Start with the USA flag */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #919191;
+}
+
+label:after {
+    background: url('../img/flags/lebanon.png'); /* The other flag */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #919191;
+    opacity: 0; /* Initially hide the Lebanon flag */
+}
+
+#toggle_checkbox:checked + label:before {
+    opacity: 0; /* Hide the USA flag when checked */
+}
+
+#toggle_checkbox:checked + label:after {
+    opacity: 1; /* Show the Lebanon flag when checked */
+    background-position: 0 0; /* Adjust the position for smooth transition */
+}
