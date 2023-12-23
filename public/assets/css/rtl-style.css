@@ -1639,12 +1639,16 @@ section {
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  direction: rtl;
 }
+
+
 
 #footer .footer-top {
   background: #000000;
   border-bottom: 1px solid #222222;
   padding: 60px 0 30px 0;
+  direction: rtl;
 }
 
 #footer .footer-top .footer-info {
@@ -1750,6 +1754,7 @@ section {
   border: 0;
   padding: 4px;
   width: calc(100% - 110px);
+
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
@@ -1765,6 +1770,7 @@ section {
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
+  direction: rtl;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
