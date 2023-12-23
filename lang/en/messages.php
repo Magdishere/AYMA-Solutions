@@ -5,7 +5,7 @@ return [
     'hero_section_subtitle' => 'Ready to elevate your business with a stunning website? Let\'s create a digital masterpiece together!',
     'start_button' => 'Let\'s Start!',
     'blog_button' => 'Our Blog',
-    'about_section_title' => 'Welcome to AYMA Solutions',
+    'about_section_title' => 'Welcome to ',
     'about_section_subtitle' => 'We\'re a mix of Egyptian and Lebanese talent, passionate about making awesome websites, portfolios, POS systems, and CRMs. Whether you\'re new to the web scene or seasoned, we bring both skills and fresh ideas to the table. You are probably wondering why to choose us; Well, we will give you some reasons...',
     'designs_feature_title' => 'Beautiful Designs',
     'designs_feature_description' => 'Talented in crafting visually appealing and beautiful designs for your online presence.',
