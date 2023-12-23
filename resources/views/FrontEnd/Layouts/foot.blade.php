@@ -48,9 +48,9 @@
 
                     var currentLocale = '{{ LaravelLocalization::getCurrentLocale() }}';
                     if (currentLocale === 'ar') {
-                        $('.label:before').css('background', 'url("../img/flags/lebanon.png")');
+                        $('.label').css('background', 'url("../img/flags/lebanon.png")');
                     } else {
-                        $('.label:before').css('background', 'url("../img/flags/united.png")');
+                        $('.label').css('background', 'url("../img/flags/lebanon.png")');
                     }
                 },
                 error: function(error) {
@@ -59,6 +59,9 @@
             });
         }
     });
+
+
+
 </script>
 
 

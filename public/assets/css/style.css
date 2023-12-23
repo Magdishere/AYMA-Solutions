@@ -1806,7 +1806,7 @@ label:after {
 }
 
 label:before {
-    background: url('../img/flags/united.png'); /* Start with the USA flag */
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1814,7 +1814,7 @@ label:before {
 }
 
 label:after {
-    background: url('../img/flags/lebanon.png'); /* The other flag */
+
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
