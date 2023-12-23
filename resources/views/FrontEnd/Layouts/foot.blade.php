@@ -45,13 +45,6 @@
                 success: function(response) {
                     // Handle the redirect in JavaScript
                     window.location.href = response.redirectUrl;
-
-                    var currentLocale = '{{ LaravelLocalization::getCurrentLocale() }}';
-                    if (currentLocale === 'ar') {
-                        $('.label:before').css('background', 'url("../img/flags/lebanon.png")');
-                    } else {
-                        $('.label').css('background', 'url("../img/flags/lebanon.png")');
-                    }
                 },
                 error: function(error) {
                     console.error('Error setting locale: ' + error.responseText);
