@@ -3,7 +3,7 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-
+                <!-- ... other columns in the footer remain the same ... -->
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-info">
                         <img src="{{('assets/img/Logo/logo.png')}}" class="logo me-auto me-lg-0 mb-5" alt="Your Logo" width="150px">
@@ -23,36 +23,34 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
+                    <h4>{{ __('footer_msgs.footer_useful_links') }}</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_home') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_about_us') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_services') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_terms_of_service') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_privacy_policy') }}</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <h4>{{ __('footer_msgs.footer_our_services') }}</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_web_design') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_web_development') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_product_management') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_marketing') }}</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __('footer_msgs.footer_graphic_design') }}</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <h4>{{ __('footer_msgs.footer_our_newsletter') }}</h4>
+                    <p>{{ __('footer_msgs.footer_newsletter_description') }}</p>
                     <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
+                        <input type="email" name="email" class="email"><input type="submit" class="submit" value="{{ __('footer_msgs.footer_subscribe') }}">
                     </form>
-
                 </div>
 
             </div>
@@ -61,14 +59,10 @@
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>AYMA Solutions</span></strong>. All Rights Reserved
+            {!! __('footer_msgs.footer_copyright') !!}
         </div>
         <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-            Designed by <a href="https://www.linkedin.com/company/ayma-solutions/">AYMA Solutions</a>
+            {!! __('footer_msgs.footer_credits') !!}
         </div>
     </div>
 </footer><!-- End Footer -->
