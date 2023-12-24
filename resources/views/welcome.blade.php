@@ -116,6 +116,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 blog-container">
+
                     <figure class="image-overlay">
                         <img src="{{ asset('assets/img/Blog/ai.jpg') }}" alt="Your Image Alt Text">
                         <figcaption>
@@ -131,7 +132,7 @@
                     <figure class="image-overlay">
                         <img src="{{ asset('assets/img/Blog/front.jpg') }}" alt="Your Image Alt Text">
                         <figcaption>
-                            <div class="overlay-content">
+                            <div class="overlay-content ">
                                 <h3 class="title">{{ trans('blog_msgs.newest_frontend_technologies') }}</h3>
                                 <p class="description">{{substr(trans('blog_msgs.frontend_technologies_description'), 0, 213) }}</p>
                             </div>
@@ -141,7 +142,7 @@
                 </div>
                 <div class="col-lg-4">
                     <figure class="image-overlay">
-                        <img src="{{ asset('assets/img/Blog/ai.jpg') }}" alt="Your Image Alt Text">
+                        <img src="{{ asset('assets/img/Blog/kali.jpg') }}" alt="Your Image Alt Text">
                         <figcaption>
                             <div class="overlay-content">
                                 <h3 class="title">{{ trans('blog_msgs.is_ai_a_threat') }}</h3>
