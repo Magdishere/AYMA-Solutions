@@ -20,7 +20,7 @@ return [
     'prices_feature_title' => 'Clear and Competitive Prices',
     'prices_feature_description' => 'No surprises in your bill. We\'re transparent about our prices from the start, so you know exactly what you\'re getting and how much it costs. Also very competitive.',
 
-   'pos_solutions' => 'Point of Sale (POS) Solutions',
+    'pos_solutions' => 'Point of Sale (POS) Solutions',
     'pos_solutions_description' => 'Efficient Transactions, Inventory Management, Analytics and Reporting, User-Friendly Interface',
     'custom_website_development' => 'Custom Website Development',
     'custom_website_development_description' => 'Design and develop custom websites tailored to the unique needs and branding of your clients',

@@ -36,7 +36,7 @@
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                    <h3 class="text-center" style="color: #fff">{{ __('messages.about_section_title') }} <span id="typingText" style="color: #E9CC1D">{{ __('messages.about_section_subtitle') }}</span></h3>
+                    <h3 class="text-center" style="color: #fff">{{ __('messages.about_section_title') }} <span id="typingText" style="color: #E9CC1D"></span></h3>
                     <div class="container-sm">
                         <p class="container-sm col-lg-10 text-center">
                         <p class="mx-auto mx-lg-2 mx-s-3 mt-3 text-center" style="color: #fff">{{ __('messages.about_section_subtitle') }}</p>
@@ -107,27 +107,54 @@
     </section>
     <!-- End About Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
         <div class="container" data-aos="zoom-in">
-
-            <div class="clients-slider swiper">
-                <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-1.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-2.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-3.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-4.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-5.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-6.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-7.png')}}" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="{{('assets/img/clients/client-8.png')}}" class="img-fluid" alt=""></div>
-                </div>
-                <div class="swiper-pagination"></div>
+            <div class="section-title">
+                <h2>{{ trans('blog_msgs.our_blog') }}</h2>
+                <p>{!! trans('blog_msgs.visit_our_blog') !!}</p>
             </div>
-
+            <div class="row">
+                <div class="col-lg-4 blog-container">
+                    <figure class="image-overlay">
+                        <img src="{{ asset('assets/img/Blog/ai.jpg') }}" alt="Your Image Alt Text">
+                        <figcaption>
+                            <div class="overlay-content">
+                                <h3 class="title">{{ trans('blog_msgs.is_ai_a_threat') }}</h3>
+                                <p class="description">{{substr(trans('blog_msgs.ai_threat_description'), 0, 213) }}</p>
+                            </div>
+                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="image-overlay">
+                        <img src="{{ asset('assets/img/Blog/front.jpg') }}" alt="Your Image Alt Text">
+                        <figcaption>
+                            <div class="overlay-content">
+                                <h3 class="title">{{ trans('blog_msgs.newest_frontend_technologies') }}</h3>
+                                <p class="description">{{substr(trans('blog_msgs.frontend_technologies_description'), 0, 213) }}</p>
+                            </div>
+                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+                    <figure class="image-overlay">
+                        <img src="{{ asset('assets/img/Blog/ai.jpg') }}" alt="Your Image Alt Text">
+                        <figcaption>
+                            <div class="overlay-content">
+                                <h3 class="title">{{ trans('blog_msgs.is_ai_a_threat') }}</h3>
+                                <p class="description">{{substr(trans('blog_msgs.ai_threat_description'), 0, 213) }}</p>
+                            </div>
+                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- End Clients Section -->
+    <!-- End Blog Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
