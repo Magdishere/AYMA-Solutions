@@ -8,4 +8,6 @@ return [
     'newest_frontend_technologies' => 'NEWEST FRONTEND TECHNOLOGIES',
     'frontend_technologies_description' => 'These technologies play a crucial role in engaging the users and encouraging and driving them toward the desired action. An application’s seamless front-end technology makes the application easy to use and recommendable to others.',
     'read_more' => 'Read More',
+    'Blog_title' => 'Welcome to<span style="color: #E9CC1D"> Our Blog</span>',
+    'Blog_desc' => 'Exploring the Latest in Technology and Innovation',
 ];
