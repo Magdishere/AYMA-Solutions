@@ -296,6 +296,39 @@
                 <p>{!! __('messages.check_our_portfolio') !!}</p>
             </div>
 
+            <div class="projects">
+                <h2 class="title">Some words from our costumers</h2>
+                <p class="description">We've been helping businesses to do their best since 2003.</p>
+
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide-box">
+                            <img src="{{asset('assets/img/portfolio/project-1.png')}}">
+                            <h3 class="name">Albert Sinelly</h3>
+                            <h4 class="job">Founder Of Devoker Company</h4>
+                        </div>
+                        <div class="slide-box">
+                            <!-- Testi Two -->
+                            <img src="{{asset('assets/img/portfolio/project-1.png')}}">
+                            <h3 class="name">Hirok Meryam</h3>
+                            <h4 class="job">Full stack Developer, Speaker</h4>
+                        </div>
+                        <div class="slide-box">
+                            <img src="{{asset('assets/img/portfolio/project-1.png')}}">
+                            <h3 class="name">Sebastian Sert</h3>
+                            <h4 class="job">UX/UI Designer, Phtographer</h4>
+                        </div>
+                    </div>
+
+                    <a href="#!" class="control-slider btn-left">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#!" class="control-slider btn-right">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+            </div>
+
             <div class="row" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">

@@ -12,6 +12,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script>
 <script src='https://wlada.github.io/vue-carousel-3d/js/carousel-3d.umd.js'></script>
 <script  src="{{asset('assets/js/script.js')}}"></script>
+<script  src="{{asset('assets/js/projects.js')}}"></script>
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 

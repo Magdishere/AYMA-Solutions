@@ -51,7 +51,9 @@
         <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
     <!-- Template Main CSS File -->
         <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-        @endif
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'><link rel="stylesheet" href="{{asset('assets/css/projects.css')}}">
+
+    @endif
 
     <!-- =======================================================
     * Template Name: AYMA Solutions
