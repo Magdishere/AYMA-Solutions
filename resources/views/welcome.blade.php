@@ -105,56 +105,6 @@
     </section>
     <!-- End About Section -->
 
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
-        <div class="container" data-aos="zoom-in">
-            <div class="section-title">
-                <h2>{{ trans('blog_msgs.our_blog') }}</h2>
-                <p>{!! trans('blog_msgs.visit_our_blog') !!}</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 blog-container">
-
-                    <figure class="image-overlay">
-                        <img src="{{ asset('assets/img/Blog/ai.jpg') }}" alt="Your Image Alt Text">
-                        <figcaption>
-                            <div class="overlay-content">
-                                <h3 class="title">{{ trans('blog_msgs.is_ai_a_threat') }}</h3>
-                                <p class="description">{{substr(trans('blog_msgs.ai_threat_description'), 0, 213) }}</p>
-                            </div>
-                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-lg-4">
-                    <figure class="image-overlay">
-                        <img src="{{ asset('assets/img/Blog/front.jpg') }}" alt="Your Image Alt Text">
-                        <figcaption>
-                            <div class="overlay-content ">
-                                <h3 class="title">{{ trans('blog_msgs.newest_frontend_technologies') }}</h3>
-                                <p class="description">{{substr(trans('blog_msgs.frontend_technologies_description'), 0, 213) }}</p>
-                            </div>
-                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col-lg-4">
-                    <figure class="image-overlay">
-                        <img src="{{ asset('assets/img/Blog/kali.jpg') }}" alt="Your Image Alt Text">
-                        <figcaption>
-                            <div class="overlay-content">
-                                <h3 class="title">{{ trans('blog_msgs.is_ai_a_threat') }}</h3>
-                                <p class="description">{{substr(trans('blog_msgs.ai_threat_description'), 0, 213) }}</p>
-                            </div>
-                            <a href="#" class="read-more">{{ trans('blog_msgs.read_more') }}</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Blog Section -->
-
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
         <div class="container" data-aos="fade-up">
